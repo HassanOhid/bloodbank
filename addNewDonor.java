@@ -241,7 +241,6 @@ public class addNewDonor extends javax.swing.JFrame {
          String  fatherName=jTextField2.getText();
          String  motherName=jTextField3.getText();
           SimpleDateFormat dFormat=new  SimpleDateFormat("dd-mm-yyyy");
-          String DOB =dFormat.format(jDataChooser1.getDate());
           String MobileNo=jTextField2.getText();
           String gender=(String)jComboBox1.getSelectedItem();
           String email=jTextField4.getText();
